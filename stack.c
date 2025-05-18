@@ -4,8 +4,8 @@
 
 #define MAXVAL 100
 #include <stdio.h>
-int sp = 0;
-double val[MAXVAL];
+static int sp = 0;
+static double val[MAXVAL];
 
 void push(const double f) {
     if (sp < MAXVAL)
